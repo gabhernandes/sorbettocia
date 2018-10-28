@@ -59,7 +59,7 @@ header{
 		top:17px !important;
 		width:40px !important;
 		height:40px !important;
-		background-image:url('http://paragoncalculator.com/random_mats/menu_img2.png') !important;
+		background-image:url('C:\Users\Marcos Hernandes\Desktop\Sorbettes\assets\roxo.png') !important;
 		background-size:30px 30px;
 		background-position:center center;
 		background-repeat:no-repeat;
@@ -78,7 +78,7 @@ header{
 				display:inline;
 			}
 				#nav li a:hover {
-					background-color:#72CF1B;/*vanilla */
+					background-color:#72CF1B;
 					color:#F8EFF2;
 				}
 				#nav li a {
@@ -115,11 +115,11 @@ header{
 					margin-top:1px !important;
 				}
 #featured{
-	background-image:url('http://paragoncalculator.com/random_mats/ice.jpg');
+	background-image:url('https://images.pexels.com/photos/108370/pexels-photo-108370.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940');
 	height:225px;
 	background-position:center center;
 	background-size:100% auto;
-	border:1px solid #e0e0e0;
+	border:1px solid ##F8EFF2;
 	box-shadow: 0 2px 7px rgba(0,0,0,0.8);
 	margin:0 15px;
 	border-top-right-radius:20px;
@@ -197,9 +197,9 @@ header{
 			font-size:14px;
 			border-top-right-radius:20px;
 			border-bottom-left-radius:20px;
-			background-color:#8190A9;
-			color:#7D6BB2;
-			background-image:url('http://paragoncalculator.com/random_mats/text_bg.png') !important;	
+			background-color:#72CF1B  ;
+			color:#8AC1D6  ;
+			background-image:url('https://images.pexels.com/photos/304664/pexels-photo-304664.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940') !important;
 		}
 		.sidebar_item:hover{
 			box-shadow: 0 4px 15px rgba(0,0,0,0.9);
@@ -218,7 +218,7 @@ header{
 		
 		.sidebar_item h2{
 			margin-top:0px;
-			color:#7D6BB2;
+			color:#72CF1B;
 			font-size:18px;
 		}
 	#content{
@@ -234,10 +234,10 @@ header{
 	}
 		.content_item{
 			background-color:#8190A9;
-			background-image:url('http://paragoncalculator.com/random_mats/text_bg.png');
+			background-image:url('https://images.pexels.com/photos/304664/pexels-photo-304664.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940');
 			padding:15px;
 			border:1px solid #F8EFF2;
-			color:#7D6BB2;
+			color:#8AC1D6  ;
 			box-shadow: 0 2px 7px rgba(0,0,0,0.8);
 			border-top-left-radius:20px;
 			border-bottom-right-radius:20px;
@@ -279,7 +279,7 @@ header{
 			display:block;
 			width:100px;
 			padding:5px 15px;
-			color:#8AC1D6;
+			color:#F8EFF2 ;
 			font-weight:bold;
 			font-size:16px;
 			background-color:#6A64AC;
@@ -299,8 +299,7 @@ footer{
 	margin:15px 15px ;
 	list-style-type:none;
 	box-shadow: 0 2px 7px rgba(0,0,0,0.8);
-	background-color:#7D6BB2;
-	background-image:url('http://paragoncalculator.com/random_mats/footer.jpg');
+	background-image:url("https://images.pexels.com/photos/304664/pexels-photo-304664.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940 ");
 	border-bottom-right-radius:20px;
 	border-bottom-left-radius:20px;
 	position:relative;
@@ -313,12 +312,12 @@ footer{
 			padding:5px 15px;
 			cursor: pointer;
 			text-decoration:none;
-			color:#7D6BB2;
+			color:#6A64AC ;
 			font-weight:bold;
 			font-size:20px;
 		}
 		footer li a:hover{
-			background-color:pink;
+			background-color:#72CF1B;
 			box-shadow: 0 4px 7px rgba(28,28,28,0.75);
 			border-radius: 25px;
 		}
