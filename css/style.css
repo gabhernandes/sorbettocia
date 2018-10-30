@@ -44,7 +44,7 @@ header{
 			 1px 1px 2px black;
 		}
 		#welcome_slogan h3 span{
-			color:#72CF1B;
+			color:#FF6501;
 		}
 			
 	#menubar{
@@ -78,11 +78,11 @@ header{
 				display:inline;
 			}
 				#nav li a:hover {
-					background-color:#72CF1B;
+					background-color: #FF011C;
 					color:#F8EFF2;
 				}
 				#nav li a {
-					background-color:#8AC1D6;
+					background-color:#019BFF;
 					font-weight:bold;
 					height:30px;
 					width:200px;
@@ -115,9 +115,8 @@ header{
 					margin-top:1px !important;
 				}
 #featured{
-	background-image:url('https://images.pexels.com/photos/108370/pexels-photo-108370.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940');
 	height:225px;
-	background-position:center center;
+	background: url('../assets/sorvete2.jpg') center center;
 	background-size:100% auto;
 	border:1px solid ##F8EFF2;
 	box-shadow: 0 2px 7px rgba(0,0,0,0.8);
@@ -131,7 +130,7 @@ header{
 		position:relative;
 		margin-left:25px;
 		margin-top:0px;
-		color:#8AC1D6;
+		color:#019BFF;
 		width:2000px;
 		text-shadow:
 			-1px -1px 2px black,
@@ -142,7 +141,7 @@ header{
 	#featured h1{
 		padding-top:15px;
     font-family: 'Oleo Script Swash Caps', cursive;
-    font-size:40px;
+    font-size:70px;
 	}
 	#featured h3{
 		color:white;
@@ -150,9 +149,9 @@ header{
 		
 	}
 	#featured button{
-		width:150px;
+		width:110px;
 		color:#F8EFF2;
-		background-color:#7D6BB2;
+		background-color: #019BFF;
 		height:50px;
 		border:0;
 		font-size:20px;
@@ -163,7 +162,7 @@ header{
 		box-shadow: 0 4px 7px rgba(28,28,28,0.75);
 	}
 	#featured button:hover{
-		background-color:#72CF1B;/*vanilla */
+		background-color: #FF011C;/*vanilla */
 	}
 	
 	.call-to-action{
@@ -197,9 +196,9 @@ header{
 			font-size:14px;
 			border-top-right-radius:20px;
 			border-bottom-left-radius:20px;
-			background-color:#72CF1B  ;
-			color:#8AC1D6  ;
-			background-image:url('https://images.pexels.com/photos/304664/pexels-photo-304664.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940') !important;
+			background-color: #FFE401  ;
+			color: #F8EFF2;
+			background-image:url('https://i.pinimg.com/564x/91/27/db/9127db783da0fb31b36f24fd5b4195a2.jpg') !important;
 		}
 		.sidebar_item:hover{
 			box-shadow: 0 4px 15px rgba(0,0,0,0.9);
@@ -218,7 +217,7 @@ header{
 		
 		.sidebar_item h2{
 			margin-top:0px;
-			color:#72CF1B;
+			color: #FFE401;
 			font-size:18px;
 		}
 	#content{
@@ -233,11 +232,11 @@ header{
 		margin:15px;
 	}
 		.content_item{
-			background-color:#8190A9;
-			background-image:url('https://images.pexels.com/photos/304664/pexels-photo-304664.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940');
+			background-color: #019BFF;
+			background-image:url('https://i.pinimg.com/564x/91/27/db/9127db783da0fb31b36f24fd5b4195a2.jpg');
 			padding:15px;
 			border:1px solid #F8EFF2;
-			color:#8AC1D6  ;
+			color: #F8EFF2  ;
 			box-shadow: 0 2px 7px rgba(0,0,0,0.8);
 			border-top-left-radius:20px;
 			border-bottom-right-radius:20px;
@@ -254,7 +253,7 @@ header{
 		}
 			.content_item h1{
 				margin-top:0;
-				color:#72CF1B  ; /*vanilla */
+				color: #FFE401  ; /*vanilla */
 				text-shadow:
 					-1px -1px 1px rgba(0,0,0,0.7),
 					 1px -1px 1px rgba(0,0,0,0.7),
@@ -266,7 +265,7 @@ header{
          margin-top:5px;
          opacity:.2;
         height:20px;
-        background-image:url('http://www.leksville.com/wp-content/themes/leksvillehealthsolutions/images/bio-separator.png');
+        background-image:url('https://i.pinimg.com/564x/91/27/db/9127db783da0fb31b36f24fd5b4195a2.jpg');
         background-repeat:no-repeat;
         background-position:center center;
       }
@@ -282,13 +281,13 @@ header{
 			color:#F8EFF2 ;
 			font-weight:bold;
 			font-size:16px;
-			background-color:#6A64AC;
+			background-color: #019BFF;
 			box-shadow: 0 2px 4px rgba(28,28,28,0.75);
 			border-radius: 25px;
 		}
 
 		.button_small a:hover{
-			background-color:#72CF1B; /*vanilla */
+			background-color:   #FF011C; /*vanilla */
 			box-shadow: 0 4px 7px rgba(28,28,28,0.75);
 		}
 		
@@ -299,7 +298,7 @@ footer{
 	margin:15px 15px ;
 	list-style-type:none;
 	box-shadow: 0 2px 7px rgba(0,0,0,0.8);
-	background-image:url("https://images.pexels.com/photos/304664/pexels-photo-304664.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940 ");
+	background-image:url("https://i.pinimg.com/564x/91/27/db/9127db783da0fb31b36f24fd5b4195a2.jpg ");
 	border-bottom-right-radius:20px;
 	border-bottom-left-radius:20px;
 	position:relative;
@@ -312,12 +311,12 @@ footer{
 			padding:5px 15px;
 			cursor: pointer;
 			text-decoration:none;
-			color:#6A64AC ;
+			color: #F8EFF2 ;
 			font-weight:bold;
 			font-size:20px;
 		}
 		footer li a:hover{
-			background-color:#72CF1B;
+			background-color:  #FF011C;
 			box-shadow: 0 4px 7px rgba(28,28,28,0.75);
 			border-radius: 25px;
 		}
