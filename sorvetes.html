@@ -3,7 +3,9 @@
 
 <head>
   <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Sorbetto & Cia</title>
+
 
 
 
@@ -42,41 +44,61 @@
 	<div id="featured">
 	  <h1>Benvenuto!</h1>
 
-	  <button>Contato</button>
+	  <button> <a href="#contato">Contato</a></button>
 
 	</div>
 	<!--close featured-->
 
-	<div id="site_content">
-	  <div class="sidebar_container">
-	    <div class="sidebar">
-	      <div class="sidebar_item">
-	       <h2>Contato</h2>
-          	       <p>Telefone: (11) 2865-0873 </p>
-                     <p>Endereço:Rua Gardenia nº15, 06110240 Osasco</p>
-                     </div>
-                     </div>
-                     </div>
-                     </div>
+
 
 
 
 	  <div id="content">
 	    <div class="content_item">
-	 <img src="assets\sorvete1.jpg" height="650" width="650">
-	 <img src="assets\sorvete2.jpg" height="650" width="650">
-	 <img src="assets\sorvete4.jpg" height="650" width="650">
-     <img src="assets\sorvete5.jpg" height="650" width="650">
-     <img src="assets\sorvete6.jpg" height="650" width="650">
-      <img src="assets\sorvete8.jpg" height="650" width="650">
-       <img src="assets\sorvete7.jpg" height="650" width="650">
-        <img src="assets\sorbete9.jpg"  height="1000" width="650">
+	<div class="container">
 
-          <img src="assets\sorbete10.jpg" height="650" width="650">
 
-	  </div>
-	  <!--close content-->
-	</div>
+
+         <h1>Fotos</h1>
+          <div id="overlay"></div>
+             <div id="container">
+               <div class="photo"><img src="assets/sorvete1.jpg" alt="" class="photo-image" /></div>
+               <div class="photo"><img src="assets/sorvete7.jpg" alt="" class="photo-image" /></div>
+               <div class="photo"><img src="assets/sorvete4.jpg" alt="" class="photo-image" /></div>
+               <div class="photo"><img src="assets/sorvete5.jpg" alt="" class="photo-image" /></div>
+               <div class="photo"><img src="assets/sorvete2.jpg" alt="" class="photo-image" /></div>
+               <div class="photo"><img src="assets/sorvete8.jpg" alt="" class="photo-image" /></div>
+             </div>
+</div>
+
+	<div class="main" id="contato">
+<div style="position: relative; height: 450px; ">
+  <div style="position: absolute; height: 200px; bottom: -40px; right: 0;  left: 0; ">
+
+         <h1>Contato</h1>
+
+
+
+
+        	        <p>Telefone: (11) 2865-0873 </p>
+        	        <p>Endereço:Rua Gardenia nº15, 06110240 Osasco</p>
+
+
+
+
+             </div>
+                 </div>
+ </div>
+</div>
+
+
+
+
+
+
+
+
+
 	<!--close site_content-->
 
 	<footer>
@@ -90,10 +112,39 @@
 <!--close main-->
   <script src='https://toluna-eu.s3.amazonaws.com/alx/scripts/jquery-1.9.1.min.js'></script>
 <script src='https://cdnjs.cloudflare.com/ajax/libs/gsap/1.17.0/TweenMax.min.js'></script>
+ <script src='http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
+   <script  src="js/index.js"></script>
+<script>
+$.noConflict();
+$.(function() {
+  // View the selected photo at full size
+  $.(".photo-image").click(function(){
+    $.(this).addClass("photo-selected");
+    $.(this).parent().addClass("photo-x");
+    $.("#overlay").show();
+  });
+
+  // Close the full size view when #overlay is clicked
+  $.("#overlay").click(function(){
+    $.(".photo-image").removeClass("photo-selected");
+    $.(".photo-x").removeClass("photo-x");
+    $.("#overlay").hide();
+  });
+});
+
+// Close full size view if "esc"
+$.(document).keyup(function(e) {
+  if (e.keyCode == 27) {
+    $.(".photo-image").removeClass("photo-selected");
+    $.("#overlay").hide();
+  }
+});
+// Code that uses other library's $ can follow here.
+</script>
 
 
 
-    <script  src="js/index.js"></script>
+
 
 
 
