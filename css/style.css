@@ -59,7 +59,7 @@ header{
 	top:17px !important;
 	width:40px !important;
 	height:40px !important;
-	background-image:url('http://paragoncalculator.com/random_mats/menu_img2.png') !important;
+	background-image:url('../assets/menu_img2.png') !important;
 	background-size:30px 30px;
 	background-position:center center;
 	background-repeat:no-repeat;
