@@ -339,116 +339,82 @@ a{
 
 
 
-/* Teste */
 
 
-@media screen and (min-width: 320px) {
 
-}
-#container{
-	width:450px;
-	position:relative;
+
+
+
+
+/* Slide 2 */
+.slider-wrap {
+	width: 50%;
+	height:300px;
+	position: relative;
 	margin:0 auto;
-
+}
+.single-slide {
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	opacity: 0;
+	animation: slider-animation;
+	animation-duration: 25s;
+	animation-iteration-count: infinite;
+	animation-timing-function: ease-in-out;
+	background-size: cover;
 }
 
-#overlay{
-	cursor: pointer;
-	position:absolute;
-	top:0;
-	left:0;
-	height:100%;
-	width:100%;
-	background:#000;
-	opacity:.7;
-	z-index:2000;
-	display:none;
-}
+#slide-1 {background-color: red; background-image: url('../assets/sorvete7.jpg');}
+#slide-2 {background-color: rebeccapurple; animation-delay: 5s; background-image: url('../assets/sorvete1.jpg');}
+#slide-3 {background-color: orange; animation-delay: 10s; background-image: url('../assets/sorvete2.jpg');}
+#slide-4 {background-color: blue; animation-delay: 15s; background-image: url('../assets/sorvete4.jpg');}
+#slide-5 {background-color: green; animation-delay: 20s; background-image: url('../assets/sorvete5.jpg');}
+#slide-6 {background-color: red; background-image: url('../assets/sorvete8.jpg');}
+#slide-7 {background-color: rebeccapurple; animation-delay: 5s; background-image: url('../assets/sorbete9.jpg');}
 
-.photo{
-	position:relative;
-	float:left;
-	height:89px;
-	width:100px;
-	background:#fff;
-	border:1px solid #999;
-	margin:20px;
-}
+@keyframes slider-animation {
 
-.photo-image{
-	cursor: pointer;
-	position:relative;
-	top:9px;
-	left:9px;
-	width:80px;
-	border:1px solid #999;
-	z-index:1000;
-	opacity:0.6;
-	transition: width 1s, top 1s, left 1s, opacity 1s, z-index .01s;
-}
-
-.photo-image:hover{
-	width:200px;
-	top:-50px;
-	left:-50px;
-	z-index:1001;
-	opacity:1;
-}
-
-.photo-selected{
-	cursor:default;
-	z-index:2001;
-	width:500px;
-	opacity:1;
-	top:-20px;
-	left:-200px;
-	box-shadow: 0 0 30px rgba(0, 0, 0, 0.5);
-}
-
-/* Nov 11 2013 - Added "X" to close popup - just a visual cue */
-/*.photo-x:after{
-  content: "X";
-  font-family: arial;
-  position: relative;
-  top: -535px;
-  font-weight: bold;
-  left: 285px;
-  padding: 10px 14px;
-  border: 2px solid black;
-  background: white;
-  z-index: 9999;
-  cursor: pointer;
-}*/
-
-.photo-selected:hover{
-	width:500px;
-	top:-50px;
-	left:-50px;
-	z-index:2001;
-	opacity:1;
-	top:-20px;
-	left:-200px;
-}
-
-
-
-@media only screen and (max-width: 600px) {
-	.photo-image:hover{
-		width:130px;
-
-		left:-30px;
-		z-index:1001;
-		opacity:1;
+	0% {
+		opacity: 0;
 	}
-    footer li a{
+	6% {
+		opacity: 1;
+	}
+	24% {
+		opacity: 1;
+	}
+	30% {
+		opacity: 0;
+	}
+	34% {
+		opacity: 0;
+	}
 
-        font-size:10px;
-        padding:2px 7px;
-    }
+	100% {
+		opacity: 0;
+	}
+}
+@media only screen and (max-width: 600px) {
+
+	footer li a{
+
+		font-size:10px;
+		padding:2px 7px;
+	}
+	.slider-wrap {
+		width: 100%;
+		height:200px;
+		position: relative;
+		margin:0 auto;
+		top:50px;
+	}
 
 
 
 }
+.center{
 
-
-
+	text-align:center;
+	font-weight: 2em;
+}
