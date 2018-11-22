@@ -7,7 +7,8 @@
 }
 body{
 
-	background-image:url('https://cdn.dribbble.com/users/995553/screenshots/2588786/icecream800x600.png');
+	background-image:url('../assets/sorvete20.jpg');
+
 	font-family: 'Raleway', sans-serif;
 	color:white;
 	min-width:280px;
@@ -119,7 +120,7 @@ header{
 	height:225px;
 	background: url('../assets/sorvete2.jpg') center center;
 	background-size:100% auto;
-	border:1px solid ##F8EFF2;
+	border:1px solid #F8EFF2;
 	box-shadow: 0 2px 7px rgba(0,0,0,0.8);
 	margin:0 15px;
 	border-top-right-radius:20px;
@@ -207,7 +208,7 @@ header{
 		}
 		
 		.sidebar_item_mobile{
-			background-color:none !important;
+			background-color: none !important;
 			border:1px solid #e0e0e0;
 			box-shadow: 0 2px 7px rgba(0,0,0,0.8);
 			margin:15px 15px 0;
