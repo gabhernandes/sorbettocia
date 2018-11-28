@@ -1,5 +1,6 @@
 @import url(https://fonts.googleapis.com/css?family=Raleway);
 @import url(https://fonts.googleapis.com/css?family=Pacifico|Lily+Script+One|Monoton|Oleo+Script+Swash+Caps);
+@import url(https://fonts.googleapis.com/css?family=Raleway:400,300);
 
 *{
  border:0;
@@ -36,7 +37,7 @@ header{
 			text-align:left;
 			font-size:35px;
 			padding-top:55px;
-			padding-left:15px;
+			padding-left:30px;
 			font-family: 'Oleo Script Swash Caps', cursive;
 			text-shadow:
 			-1px -1px 2px black,
@@ -64,6 +65,7 @@ header{
 	background-size:30px 30px;
 	background-position:center center;
 	background-repeat:no-repeat;
+	cursor:pointer;
 }
 
 	
@@ -201,7 +203,7 @@ header{
 			border-bottom-left-radius:20px;
 			background-color: #FFE401  ;
 			color: #F8EFF2;
-			background-image:url('https://www.solidbackgrounds.com/images/2560x1600/2560x1600-salmon-solid-color-background.jpg') !important;
+			/*background-image:url('https://www.solidbackgrounds.com/images/2560x1600/2560x1600-salmon-solid-color-background.jpg') !important;*/
 		}
 		.sidebar_item:hover{
 			box-shadow: 0 4px 15px rgba(0,0,0,0.9);
@@ -236,10 +238,13 @@ header{
 	}
 		.content_item{
 
-			background-image:url('https://www.solidbackgrounds.com/images/2560x1600/2560x1600-salmon-solid-color-background.jpg');
+			/*background-image:url('https://www.solidbackgrounds.com/images/2560x1600/2560x1600-salmon-solid-color-background.jpg');*/
+			background-color:#F87757;
 			padding:15px;
 			border:1px solid #F8EFF2;
-			color: #F8EFF2  ;
+
+
+
 			box-shadow: 0 2px 7px rgba(0,0,0,0.8);
 			border-top-left-radius:20px;
 			border-bottom-right-radius:20px;
@@ -248,7 +253,8 @@ header{
 		}
 		
 		.content_item_mobile{
-			background-color:rgb(20,20,20);
+			/*background-color:rgb(20,20,20);*/
+			background-color:#F87757;
 			padding:15px;
 			border: 1px solid #e0e0e0;
 			box-shadow: 0 2px 7px rgba(0,0,0,0.8);
@@ -263,6 +269,7 @@ header{
 					 1px -1px 1px rgba(0,0,0,0.7),
 					 -1px 1px 1px rgba(0,0,0,0.7),
 					 1px 1px 1px rgba(0,0,0,0.7);
+
 			}
       .line-separator{
          horizontal-align:middle;
@@ -303,7 +310,8 @@ footer{
 	margin:15px 15px ;
 	list-style-type:none;
 	box-shadow: 0 2px 7px rgba(0,0,0,0.8);
-	background-image:url("https://www.solidbackgrounds.com/images/2560x1600/2560x1600-salmon-solid-color-background.jpg ");
+	/*background-image:url("https://www.solidbackgrounds.com/images/2560x1600/2560x1600-salmon-solid-color-background.jpg ");*/
+	background-color:#F87757;
 	border-bottom-right-radius:20px;
 	border-bottom-left-radius:20px;
 	position:relative;
@@ -410,7 +418,9 @@ a{
 		margin:0 auto;
 		top:50px;
 	}
-
+div.content{
+	display:none;
+}
 
 
 }
@@ -418,4 +428,72 @@ a{
 
 	text-align:center;
 	font-weight: 2em;
+}
+.content {
+	position: absolute;
+	top: 50%;
+	left: 80%;
+	transform: translate(-50%, -50%);
+	display: block;
+}
+
+.icon {
+	height: 50px;
+	width: 50px;
+	border: 3px solid white;
+	border-radius: 50%;
+	text-align: center;
+	color: white;
+	display: inline-block;
+	vertical-align: middle;
+	line-height: 65px;
+	margin-right: 10px;
+	z-index: 10;
+	-moz-box-shadow: 4px 0px 20px rgba(68, 68, 68, 0.4);
+	-webkit-box-shadow: 4px 0px 20px rgba(68, 68, 68, 0.4);
+	box-shadow: 4px 0px 20px rgba(68, 68, 68, 0.4);
+	cursor:pointer;
+}
+
+.facebook .background_circle {
+	display: none;
+	width: 52px;
+	height: 54px;
+	position: absolute;
+	border-radius: 50%;
+	top: 0;
+	left: 1;
+	z-index: -1;
+	background-color: #3B5998;
+}
+
+
+
+.instagram .background_circle {
+	display: none;
+	width: 52px;
+	height: 54px;
+	position: absolute;
+	border-radius: 50%;
+	top: 0;
+	left: 1;
+	z-index: -1;
+	background-color: #cd486b;
+}
+
+
+
+.facebook:hover,
+.facebook:active {
+	background-color: #3B5998;
+}
+
+
+
+.instagram:hover,
+.instagram:active {
+	background-color: #cd486b;
+}
+.close {
+	cursor: pointer;
 }

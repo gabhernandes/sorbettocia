@@ -11,7 +11,7 @@ $(document).ready(function(){
     // EVENTS  ***************************
 
     $(document).on("click", function(el){
-        if( $(el.target).attr('class') == "menubar_mobile" ){
+        if( $(el.target).attr('class') === "menubar_mobile" ){
             $('.nav_mobile').show();
             TweenMax.fromTo( $('.nav_item_mobile').eq(0), 0.25, { left:'150px'}, {left:'0px'});
             TweenMax.fromTo( $('.nav_item_mobile').eq(1), 0.50, { left:'150px'}, {left:'0px'});
